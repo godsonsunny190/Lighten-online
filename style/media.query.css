@@ -1,0 +1,71 @@
+@media (max-width:480px) {
+     .bx-menu{
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+    }
+    .header__nav .navbar .menu{
+          display: none;
+    }
+   .navbar .menu.is-active{
+        display: block;
+    }
+    .menu{
+        width: 100%;
+        background-color: aqua;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 112px;
+        transform: translateX(-100%);
+        transition: transform ease 0.3s;
+    }
+
+    /* Hero media query */
+    .hero{
+        height: 40%;
+    }
+    .hero__wrapper{
+        display: block;
+    }
+    .hero__captions{
+        padding: 80px 54px;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .about .about__wrapper{
+        height: 604px;
+        gap: 30px 30px;
+    }
+    
+
+
+
+    .service .service__wrapper .service__card{
+        flex-basis: 70%;
+    }
+    .left__title{
+        text-align: center;
+        margin: 0;
+    }
+    .section__title p{
+        font-size: 10px;
+    }
+
+    .products__wrapper{
+        flex-wrap: wrap;
+    }
+
+}
