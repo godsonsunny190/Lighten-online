@@ -4,6 +4,9 @@
         cursor: pointer;
         font-size: 30px;
     }
+    .header__nav{
+        padding: 20px 16px;
+    }
     .header__nav .navbar .menu{
           display: none;
     }
@@ -30,29 +33,29 @@
     }
     .hero__captions{
         padding: 80px 54px;
+        margin: 0;
+    }
+    .shap img{
+        left: 327px;
+        bottom: 71%;
+    }
+    .shap__two img{
+        left: 405px;
+        bottom: 60%;
     }
    
-
-
-
-
-
-
-
-
-
-
-
-
+    /* About media query */
+     .about{
+         height: auto;
+     }
 
     .about .about__wrapper{
         height: 604px;
-        gap: 30px 30px;
+        height: 746px;
+        padding: 98px 0;
     }
     
-
-
-
+    /* Services meddia query */
     .service .service__wrapper .service__card{
         flex-basis: 70%;
     }
@@ -67,5 +70,36 @@
     .products__wrapper{
         flex-wrap: wrap;
     }
+    /* footer media query */
+    footer .footer__links{
+        display: block;
+    }
+    .map .map__box{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 0 13px;
+    }   
+    .map .map__box h4,p{
+        font-size: 14px;
+    }
+    .map .map__box a{
+        padding: 9px 32px;
+        font-size: 10px;
+        width: 132px;
+        height: 35px;
+        text-align: center;
+    }
+    .map__request{
+        height: 12vh;
+    }
 
+    .map__img img {
+        height: 19vh;
+    }
+}
+
+@media (max-width:760px) {
+    
 }
